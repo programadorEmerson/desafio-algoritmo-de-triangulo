@@ -41,18 +41,18 @@ window.onload = function() {
   }
 
   function criarElemento(className) {
-    let bloco = document.createElement("div");
-    bloco.className = className;
-    return bloco;
+    let elemento = document.createElement("div");
+    elemento.className = className;
+    return elemento;
   }
 
   function preencherLinha(divLine) {
-    for (let linha_colune = 1; linha_colune <= baseDaPiramide; linha_colune += 1) {
-      if(linha_colune >= ladoEsquerdo && linha_colune <= ladoDireito) {
-        let blocoCriado = criarElemento("box");
-        divLine.appendChild(blocoCriado);
+    for (let linha_coluna = 1; linha_coluna <= baseDaPiramide; linha_coluna += 1) {
+      if(linha_coluna >= ladoEsquerdo && linha_coluna <= ladoDireito) {
+        let bloco = criarElemento("caixaVede");
+        divLine.appendChild(bloco);
       } else {
-        divLine.appendChild(criarElemento("box-empty"));
+        divLine.appendChild(criarElemento("caixaBranca"));
       }
     }
   }
