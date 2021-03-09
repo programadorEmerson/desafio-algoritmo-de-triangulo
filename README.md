@@ -29,3 +29,10 @@ O resto é com vocês!
 ![Pyramid](pyramid.png)
 
 **Divirtam-se!**
+
+Modificações realizadas
+
+1- Modificado o CSS para que a base do Triangulo ficasse dinâmico, independe da quantidade de linhas, 
+2- Traduzido o código para pt-br para que fosse mais fácil o entendimento de alguns alunos
+3- Tornado o triangulo dinamico para que fosse gerado de qualquer tamanho e não fixo a base 9 igual no começo e linhas 5
+
